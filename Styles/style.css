@@ -4,8 +4,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  max-width: 1440px;
+  margin: 0 auto;
+}
 section{
-  max-width: 1140px;
+  width: 90%;
+  max-width: 1440px;
   margin: 0 auto;
 }
 /* Common design */
@@ -25,24 +30,25 @@ section{
 }
 /* Button Design */
 .btn{
-    background-color: #4E47FF;
-    color: #ffffff;
-    padding: 12px 36px; 
-    border: none; 
-    border-radius: 5px;
+  background-color: #4E47FF;
+  color: #ffffff;
+  padding: 12px 36px; 
+  border: none; 
+  border-radius: 5px;
 }
-button:hover{
-    background-color: #008CBA;
-    color: white;
+.btn:hover,.form-btn:hover{
+  background-color: #008CBA;
+  color: white;
 }
 .form-btn{
   width: 100%;
-    max-width: 497px;
-    background-color: #4E47FF;
-    color: #ffffff;
-    padding: 12px 36px; 
-    border: none; 
-    border-radius: 5px;
+  max-width: 497px;
+  background-color: #4E47FF;
+  color: #ffffff;
+  padding: 12px 36px; 
+  border: none; 
+  border-radius: 5px;
+  box-sizing: border-box;
 }
 /* Banner Image */
 header{
@@ -71,8 +77,9 @@ header{
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  width: 90%;
   width: 905px;
-  height: 237px;;
+  height: auto;
   margin: 0 auto;
 }
 .banner h1{
