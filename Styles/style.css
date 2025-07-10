@@ -36,7 +36,8 @@ button:hover{
     color: white;
 }
 .form-btn{
-    width: 497px;
+  width: 100%;
+    max-width: 497px;
     background-color: #4E47FF;
     color: #ffffff;
     padding: 12px 36px; 
