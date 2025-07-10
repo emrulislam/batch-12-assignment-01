@@ -143,6 +143,73 @@ header{
     margin: 5px 0 0;
   }
 /* Users Feedback design */
+.testimonials-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.testimonials-section h2 {
+  font-size: 2rem;
+  color: #2c2c5b;
+  margin-bottom: 40px;
+}
+
+.testimonial-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.testimonial-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+  transition: transform 0.2s;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+}
+
+.stars {
+  color: #ffc107;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.testimonial-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.testimonial-card p {
+  font-size: 0.95rem;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reviewer img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.reviewer .date {
+  font-size: 0.85rem;
+  color: #999;
+}
+
 /* Focus Section Design */
 .focus{
     margin: 116px auto 90px;
