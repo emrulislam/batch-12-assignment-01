@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
 }
+/* Common design */
+.text-center{
+    text-align: center;
+}
 /* Typography Design Design */
 .raleway-font{
   font-family: "Raleway", sans-serif;
@@ -17,12 +21,24 @@
     border: none; 
     border-radius: 5px;
 }
+button:hover{
+    background-color: #008CBA;
+    color: white;
+}
+/* Banner Image */
+header{
+    background: url("../Assets/Hero-bg.png") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
 /* Navbar Design */
 .navbar{
-    margin: 50px auto;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 50px;
     max-width: 1140px;
 }
 .navbar h1{
@@ -31,3 +47,18 @@
     color: #4E47FF;
 }
 /* Banner Design */
+.banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.banner h1{
+    font-weight: bold;
+    font-size: 65px;
+    color: #252432;
+    padding-bottom: 37px;
+}
