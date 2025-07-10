@@ -52,23 +52,23 @@ section{
 }
 /* Banner Image */
 header{
-    background: url("../Assets/Hero-bg.png") no-repeat center center;
-    background-size: cover;
-    height: 698px;
-    position: relative;
+  background: url("../Assets/Hero-bg.png") no-repeat center center;
+  background-size: cover;
+  height: 698px;
+  position: relative;
 }
 /* Navbar Design */
 .navbar{
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 50px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
 }
 .navbar h1{
-    font-weight: bolder;
-    font-size: 34px;
-    color: #4E47FF;
+  font-weight: bolder;
+  font-size: 34px;
+  color: #4E47FF;
 }
 /* Banner Design */
 .banner {
@@ -83,72 +83,72 @@ header{
   margin: 0 auto;
 }
 .banner h1{
-    font-weight: bold;
-    font-size: 65px;
-    color: #252432;
-    padding-bottom: 37px;
+  font-weight: bold;
+  font-size: 65px;
+  color: #252432;
+  padding-bottom: 37px;
 }
 /* Action section design */
 .action{
-    margin: 116px auto;
-    display: flex;
-    justify-content: center;
+  margin: 116px auto;
+  display: flex;
+  justify-content: center;
 }
 .action-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 220px;
-    width: 1140px;
-    margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 220px;
+  width: 1140px;
+  margin: 0 auto;
 }
 .action-left-side h1{
-    font-weight: bold;
-    font-size: 42px;
-    color: #252432;
-    margin-bottom: 23px;
+  font-weight: bold;
+  font-size: 42px;
+  color: #252432;
+  margin-bottom: 23px;
 }
 .action-left-side p{
-    font-weight: 400;
-    font-size: 24px;
-    line-height:30px;
-    color: #252432;
-    margin-bottom: 23px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height:30px;
+  color: #252432;
+  margin-bottom: 23px;
 }
 .action-right-side img{
-    max-width: 403px;
-    height: 328px;
-    border-radius: 48px;
+  max-width: 403px;
+  height: 328px;
+  border-radius: 48px;
 }
 /* Productive Users Design */
 .productive-users {
-    background-color: rgba(78,71,255,0.1);
-    padding: 50px 0px;
-    text-align: center;
-    border-radius: 24px;
-    width: 1140px;
-    margin: 0 auto;
+  background-color: rgba(78,71,255,0.1);
+  padding: 50px 0px;
+  text-align: center;
+  border-radius: 24px;
+  width: 1140px;
+  margin: 0 auto;
   }
   .productive-users h1 {
-    font-weight: bold;
-    font-size: 38px;
-    color: #252432;
-    margin-bottom: 40px;
+  font-weight: bold;
+  font-size: 38px;
+  color: #252432;
+  margin-bottom: 40px;
   }
   .data-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
   }
   .data-item h2 {
-    font-size: 80px;
-    color: #4E47FF;
-    margin: 0;
+  font-size: 80px;
+  color: #4E47FF;
+  margin: 0;
   }
   .data-item p {
-    font-size: 20px;
-    color: rgba(0,0,0,0.5);
-    margin: 5px 0 0;
+  font-size: 20px;
+  color: rgba(0,0,0,0.5);
+  margin: 5px 0 0;
   }
 /* Users Feedback design */
 .testimonials-section {
