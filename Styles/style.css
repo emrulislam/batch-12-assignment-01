@@ -153,14 +153,12 @@ header{
   color:#252432 ;
   margin-bottom: 50px;
 }
-
 .testimonial-cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
 }
-
 .testimonial-card {
   background-color: #fff;
   border: 1px solid #f2eded;
@@ -169,117 +167,110 @@ header{
   width: 300px;
   text-align: left;
 }
-
 .stars {
   color: #FFB805;
   font-size: 24px;
   margin-bottom: 24px;
 }
-
 .testimonial-card h3 {
   font-size: 24px;
   margin-bottom: 8px;
   font-weight: 700;
 }
-
 .testimonial-card p {
   font-size: 16px;
   color: #444;
   margin-bottom: 24px;
 }
-
 .reviewer {
   display: flex;
   align-items: center;
   gap: 12px;
 }
-
 .reviewer img {
   border-radius: 50%;
   width: 40px;
   height: 40px;
 }
-
 .reviewer .date {
   font-size: 12px;
   color: #999;
 }
-
 /* Focus Section Design */
 .focus{
-    margin: 116px auto 90px;
+  margin: 116px auto 90px;
 }
 .focus-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .focus-content{
-    margin: 20px auto;
+  margin: 20px auto;
 }
 .focus-content h1{
-    font-weight: bold;
-    font-size: 50px;
-    line-height: 120%;
-    padding-bottom: 20px;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 120%;
+  padding-bottom: 20px;
 }
 .focus-content p{
-    font-weight: 400;
-    font-size: 20px;
-    padding-bottom: 20px;
+  font-weight: 400;
+  font-size: 20px;
+  padding-bottom: 20px;
 }
 .focus-image img{
-    max-width: 840px;
-    border-radius: 48px;
+  max-width: 840px;
+  border-radius: 48px;
 }
 /* Get In Touch Section Design */
 .get-in-touch{
-    margin: 0 auto;
+  margin: 0 auto;
 }
 .contact-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 115px;
 }
 .left-side{
-    flex: 1;
-    max-width: 528px;
-    height: 232px;
+  flex: 1;
+  max-width: 528px;
+  height: 232px;
 }
 .section-title {
-    font-size: 97px;
-    font-weight: bold;
-    text-align: left;
-    line-height: 120%;
+  font-size: 97px;
+  font-weight: bold;
+  text-align: left;
+  line-height: 120%;
 }
 .right-side {
-    flex: 1;
-    max-width: 497px;
-    padding: 30px;
+  flex: 1;
+  max-width: 497px;
+  padding: 30px;
 }
 .form-group {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 .form-group label {
-    display: block;
-    font-weight: 500;
-    font-size: 18px;
-    color: #000000;
-    margin-bottom: 8px;
+  display: block;
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 8px;
 }
 .form-group input,.form-group textarea {
-    width: 100%;
-    padding: 20px 32px;
-    font-size: 16px;
-    border: 1px solid #d6dded;
-    border-radius: 10px;
-    box-sizing: border-box;
+  width: 100%;
+  padding: 20px 32px;
+  font-size: 16px;
+  border: 1px solid #d6dded;
+  border-radius: 10px;
+  box-sizing: border-box;
 }
 .form-group textarea {
-    resize: vertical;
-    min-height: 100px;
+  resize: vertical;
+  min-height: 100px;
 }
 /* Footer Design */
 footer{
@@ -291,19 +282,19 @@ footer{
   margin: 100px auto;
 }
 .logo {
-    font-weight: bolder;
-    font-size: 80px;
-    color: #4E47FF;
-    margin-bottom: 10px;
+  font-weight: bolder;
+  font-size: 80px;
+  color: #4E47FF;
+  margin-bottom: 10px;
 }
 .tagline {
-    color: #8987A1;
-    font-size: 20px;
-    max-width: 600px;
-    text-align: center;
+  color: #8987A1;
+  font-size: 20px;
+  max-width: 600px;
+  text-align: center;
 }
 .nav {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 .nav a {
   color: #8987a1;
