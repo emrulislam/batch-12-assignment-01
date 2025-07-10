@@ -1,0 +1,33 @@
+/* Universal Selector */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Typography Design Design */
+.raleway-font{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* Button Design */
+.btn{
+    background-color: #4E47FF;
+    color: #ffffff;
+    padding: 12px 36px; 
+    border: none; 
+    border-radius: 5px;
+}
+/* Navbar Design */
+.navbar{
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+}
+.navbar h1{
+    font-weight: bolder;
+    font-size: 34px;
+    color: #4E47FF;
+}
+/* Banner Design */
