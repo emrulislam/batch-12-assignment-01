@@ -36,6 +36,14 @@ button:hover{
     background-color: #008CBA;
     color: white;
 }
+.form-btn{
+    width: 497px;
+    background-color: #4E47FF;
+    color: #ffffff;
+    padding: 12px 36px; 
+    border: none; 
+    border-radius: 5px;
+}
 /* Banner Image */
 header{
     background: url("../Assets/Hero-bg.png") no-repeat center center;
@@ -63,6 +71,7 @@ header{
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  width: 905px;
   height: 237px;;
   margin: 0 auto;
 }
@@ -83,6 +92,7 @@ header{
     justify-content: center;
     align-items: center;
     gap: 220px;
+    /* width: 1140px; */
     margin: 0 auto;
 }
 .action-left-side h1{
@@ -173,10 +183,10 @@ header{
             justify-content: center;
             align-items: center;
             gap: 115px;
-            padding: 70px;
         }
         .left-side{
-            width: 45%;
+            max-width: 528px;
+            height: 232px;
         }
         .section-title {
             font-size: 97px;
@@ -185,6 +195,7 @@ header{
         }
         .right-side {
             flex: 1;
+            max-width: 497px;
             padding: 30px;
         }
         .form-group {
@@ -192,16 +203,17 @@ header{
         }
         .form-group label {
             display: block;
-            font-size: 16px;
-            color: #555;
+            font-weight: 500;
+            font-size: 18px;
+            color: #000000;
             margin-bottom: 8px;
         }
         .form-group input,.form-group textarea {
             width: 100%;
-            padding: 10px;
+            padding: 20px 32px;
             font-size: 16px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
+            border: 1px solid #d6dded;
+            border-radius: 10px;
             box-sizing: border-box;
         }
         .form-group textarea {
